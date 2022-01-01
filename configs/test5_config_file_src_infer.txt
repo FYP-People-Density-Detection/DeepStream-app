@@ -164,14 +164,14 @@ nvbuf-memory-type=0
 [primary-gie]
 enable=1
 gpu-id=0
-batch-size=4
+batch-size=2
 ## 0=FP32, 1=INT8, 2=FP16 mode
 bbox-border-color0=1;0;0;1
 bbox-border-color1=0;1;1;1
 bbox-border-color2=0;1;1;1
 bbox-border-color3=0;1;0;1
 nvbuf-memory-type=0
-interval=0
+interval=30
 gie-unique-id=1
 model-engine-file=../../../../../samples/models/Primary_Detector/resnet10.caffemodel_b4_gpu0_int8.engine
 labelfile-path=../../../../../samples/models/Primary_Detector/labels.txt
